@@ -1,0 +1,62 @@
+div{
+    width: 625px;
+    height:625px;
+    background-image: url(homer.jpg);
+}
+
+@media screen and (min-width:1601px) {
+    div{
+        background-position: 0 0;
+        height:312.5px;
+        width:312.5px;
+    }
+}
+
+@media screen and (min-width:1401px) and (max-width:1600px) {
+    div{
+        background-position: 312.5px 0;
+        height:312.5px;
+        width:312.5px;
+    }
+}
+
+
+@media screen and (min-width:1201px) and (max-width:1400px) {
+    div{
+        background-position: 0 -312.5px;
+        height:312.5px;
+        width:312.5px;
+    }
+}
+
+@media screen and (min-width:1001px) and (max-width:1200px) {
+    div{
+        background-position: -312.5px -312.5px;
+        height:312.5px;
+        width:312.5px;
+    }
+}
+
+@media screen and (min-width:801px) and (max-width:1000px) {
+    div{
+        background-position: 0 -312.5px;
+        height:312.5px;
+        width:312.5px;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:800px) {
+    div{
+        background-position: -312.5px 0;
+        height:312.5px;
+        width:312.5px;
+    }
+}
+
+@media screen and (max-width:601px) {
+    div{
+        background-position: 0 0;
+        height:312.5px;
+        width:312.5px;
+    }
+}
